@@ -1,0 +1,12 @@
+{
+    "name": "your-namespace/your-project",
+    "description": "A project using PHPMailer for email verification.",
+    "authors": [
+      {
+        "name": "Hum <6414631033@rbru.ac.th>"
+      }
+    ],
+    "require": {
+      "phpmailer/phpmailer": "*"
+    }
+  }

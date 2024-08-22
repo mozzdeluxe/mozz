@@ -29,13 +29,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->isSMTP();                                            // Send using SMTP
             $mail->Host       = 'smtp.example.com';                     // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username   = 'your_email@example.com';               // SMTP username
-            $mail->Password   = 'your_password';                        // SMTP password
+            $mail->Username   = 'raulmummum@gmail.com';               // SMTP username
+            $mail->Password   = 'ipkv kfsm mecf zrrb';                        // SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;           // Enable TLS encryption
             $mail->Port       = 587;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom('no-reply@example.com', 'Your Website');
+            $mail->setFrom('raulmummum@gmail.com', 'test');
             $mail->addAddress($email);                                  // Add a recipient
 
             // Content
